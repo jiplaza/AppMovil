@@ -13,6 +13,7 @@ namespace AndroidMap
     {
         int count = 1;
 
+
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
