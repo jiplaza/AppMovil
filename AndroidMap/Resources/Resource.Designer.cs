@@ -26,6 +26,28 @@ namespace AndroidMap
 		
 		public static void UpdateIdValues()
 		{
+			global::Xamarin.Android.NUnitLite.Resource.Id.OptionHostName = global::AndroidMap.Resource.Id.OptionHostName;
+			global::Xamarin.Android.NUnitLite.Resource.Id.OptionPort = global::AndroidMap.Resource.Id.OptionPort;
+			global::Xamarin.Android.NUnitLite.Resource.Id.OptionRemoteServer = global::AndroidMap.Resource.Id.OptionRemoteServer;
+			global::Xamarin.Android.NUnitLite.Resource.Id.OptionsButton = global::AndroidMap.Resource.Id.OptionsButton;
+			global::Xamarin.Android.NUnitLite.Resource.Id.ResultFullName = global::AndroidMap.Resource.Id.ResultFullName;
+			global::Xamarin.Android.NUnitLite.Resource.Id.ResultMessage = global::AndroidMap.Resource.Id.ResultMessage;
+			global::Xamarin.Android.NUnitLite.Resource.Id.ResultResultState = global::AndroidMap.Resource.Id.ResultResultState;
+			global::Xamarin.Android.NUnitLite.Resource.Id.ResultRunSingleMethodTest = global::AndroidMap.Resource.Id.ResultRunSingleMethodTest;
+			global::Xamarin.Android.NUnitLite.Resource.Id.ResultStackTrace = global::AndroidMap.Resource.Id.ResultStackTrace;
+			global::Xamarin.Android.NUnitLite.Resource.Id.ResultsFailed = global::AndroidMap.Resource.Id.ResultsFailed;
+			global::Xamarin.Android.NUnitLite.Resource.Id.ResultsId = global::AndroidMap.Resource.Id.ResultsId;
+			global::Xamarin.Android.NUnitLite.Resource.Id.ResultsIgnored = global::AndroidMap.Resource.Id.ResultsIgnored;
+			global::Xamarin.Android.NUnitLite.Resource.Id.ResultsInconclusive = global::AndroidMap.Resource.Id.ResultsInconclusive;
+			global::Xamarin.Android.NUnitLite.Resource.Id.ResultsMessage = global::AndroidMap.Resource.Id.ResultsMessage;
+			global::Xamarin.Android.NUnitLite.Resource.Id.ResultsPassed = global::AndroidMap.Resource.Id.ResultsPassed;
+			global::Xamarin.Android.NUnitLite.Resource.Id.ResultsResult = global::AndroidMap.Resource.Id.ResultsResult;
+			global::Xamarin.Android.NUnitLite.Resource.Id.RunTestsButton = global::AndroidMap.Resource.Id.RunTestsButton;
+			global::Xamarin.Android.NUnitLite.Resource.Id.TestSuiteListView = global::AndroidMap.Resource.Id.TestSuiteListView;
+			global::Xamarin.Android.NUnitLite.Resource.Layout.options = global::AndroidMap.Resource.Layout.options;
+			global::Xamarin.Android.NUnitLite.Resource.Layout.results = global::AndroidMap.Resource.Layout.results;
+			global::Xamarin.Android.NUnitLite.Resource.Layout.test_result = global::AndroidMap.Resource.Layout.test_result;
+			global::Xamarin.Android.NUnitLite.Resource.Layout.test_suite = global::AndroidMap.Resource.Layout.test_suite;
 		}
 		
 		public partial class Attribute
@@ -63,8 +85,65 @@ namespace AndroidMap
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f060003
+			public const int OptionHostName = 2131099651;
+			
+			// aapt resource value: 0x7f060004
+			public const int OptionPort = 2131099652;
+			
+			// aapt resource value: 0x7f060002
+			public const int OptionRemoteServer = 2131099650;
+			
+			// aapt resource value: 0x7f060012
+			public const int OptionsButton = 2131099666;
+			
+			// aapt resource value: 0x7f06000d
+			public const int ResultFullName = 2131099661;
+			
+			// aapt resource value: 0x7f06000f
+			public const int ResultMessage = 2131099663;
+			
+			// aapt resource value: 0x7f06000e
+			public const int ResultResultState = 2131099662;
+			
+			// aapt resource value: 0x7f06000c
+			public const int ResultRunSingleMethodTest = 2131099660;
+			
+			// aapt resource value: 0x7f060010
+			public const int ResultStackTrace = 2131099664;
+			
+			// aapt resource value: 0x7f060008
+			public const int ResultsFailed = 2131099656;
+			
+			// aapt resource value: 0x7f060005
+			public const int ResultsId = 2131099653;
+			
+			// aapt resource value: 0x7f060009
+			public const int ResultsIgnored = 2131099657;
+			
+			// aapt resource value: 0x7f06000a
+			public const int ResultsInconclusive = 2131099658;
+			
+			// aapt resource value: 0x7f06000b
+			public const int ResultsMessage = 2131099659;
+			
+			// aapt resource value: 0x7f060007
+			public const int ResultsPassed = 2131099655;
+			
+			// aapt resource value: 0x7f060006
+			public const int ResultsResult = 2131099654;
+			
+			// aapt resource value: 0x7f060011
+			public const int RunTestsButton = 2131099665;
+			
+			// aapt resource value: 0x7f060013
+			public const int TestSuiteListView = 2131099667;
+			
 			// aapt resource value: 0x7f060000
-			public const int MyButton = 2131099648;
+			public const int mapView = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int textViewMessage = 2131099649;
 			
 			static Id()
 			{
@@ -80,7 +159,25 @@ namespace AndroidMap
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int list = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Main = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int MainGPS = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int options = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int results = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int test_result = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int test_suite = 2130903046;
 			
 			static Layout()
 			{
